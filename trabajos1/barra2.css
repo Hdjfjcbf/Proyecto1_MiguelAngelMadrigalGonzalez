@@ -1,0 +1,40 @@
+/* Estilos generales (mantén los de la Actividad 1 o agrégalos aquí) */
+body {
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+background-color: #e0aeae;
+}
+/* Navbar con logo */
+.navbar-logo {
+background-color: #9d0303;
+padding: 10px 20px;
+display: flex; /* Habilita Flexbox en el contenedor principal */
+justify-content: space-between; /* Empuja el logo a la izquierda y la lista a la derecha */
+align-items: center; /* Centra verticalmente el logo y la lista */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.logo-container .logo {
+color: #00bcd4; /* Color del logo */
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+}
+.nav-list-logo {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex; /* Habilita Flexbox para la lista de enlaces */
+gap: 25px; /* Espacio entre los elementos de la lista */
+}
+.nav-list-logo li a {
+text-decoration: none;
+color: rgb(234, 166, 166);
+padding: 8px 12px;
+display: block;
+transition: background-color 0.3s ease, color 0.3s ease;
+border-radius: 4px;
+}
+.nav-list-logo li a:hover {
+background-color: #00bcd4;
+color: #222;
+}

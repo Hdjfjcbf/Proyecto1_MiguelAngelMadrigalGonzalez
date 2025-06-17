@@ -1,0 +1,103 @@
+.contenedor {
+    display: grid;
+    width: 100vw;
+    height: 110vh;
+    grid-template-columns: repeat(42, minmax(18px, 1fr));
+    grid-template-rows: repeat(46, minmax(18px, 1fr)); 
+    gap: 8px;
+}
+.fondo{
+    background-color: rgba(177, 251, 181, 0.833);
+    grid-column: 1/43;
+    grid-row: 1/47;
+}
+.sombrauno{
+    background-color: rgb(30, 187, 230);
+    grid-column: 4/13;
+    grid-row: 7/16;
+}
+.informacionuno{
+    background-color: rgb(1, 134, 171);
+    grid-column: 13/17;
+    grid-row: 9/16;
+}
+.cuadrouno{
+    background-color: rgb(105, 223, 255);
+    grid-column: 5/14;
+    grid-row: 8/17;
+}
+.sombrados{
+    background-color: rgb(22, 161, 89);
+    grid-column: 24/41;
+    grid-row: 7/16;
+}
+.informaciondos{
+    background-color: rgb(6, 145, 80);
+    grid-column: 20/24;
+    grid-row: 9/16;
+}
+.cuadrodos{
+    background-color: rgb(47, 221, 93);
+    grid-column: 23/40;
+    grid-row: 8/17;
+}
+.sombratres{
+    background-color: rgb(153, 10, 132);
+    grid-column: 24/41;
+    grid-row: 32/41;
+}
+.informaciontres{
+    background-color: rgb(92, 6, 95);
+    grid-column: 20/24;
+    grid-row: 34/41;
+}
+.cuadrotres{
+    background-color: rgb(220, 56, 187);
+    grid-column: 23/40;
+    grid-row: 33/42;
+}
+.sombracuatro{
+    background-color: rgb(209, 209, 15);
+    grid-column: 4/21;
+    grid-row: 20/29;
+}
+.informacioncuatro{  
+    background-color: rgb(175, 186, 10);
+    grid-column: 21/25;
+    grid-row: 22/29;
+}
+.cuadrocuatro{
+    background-color: rgb(215, 244, 52);
+    grid-column: 5/22;
+    grid-row: 21/30;
+}
+.sombracinco{
+    background-color: rgb(23, 121, 220);
+    grid-column: 4/13;
+    grid-row: 32/41;
+}
+.informacioncinco{
+    background-color: rgb(8, 138, 174);
+    grid-column: 13/17;
+    grid-row: 34/41;
+}
+.cuadrocinco{
+    background-color: rgb(92, 163, 221);
+    grid-column: 5/14;
+    grid-row: 33/42;
+    }
+.sombraseis{
+    background-color: rgb(138, 13, 180);
+    grid-column: 27/36;
+    grid-row: 20/29;
+}
+.informacionseis{
+    background-color: rgb(160, 9, 162);
+    grid-column: 36/40;
+    grid-row: 22/29;
+}
+.cuadroseis{
+    background-color: rgb(180, 73, 230);
+    grid-column: 28/37;
+    grid-row: 21/30;
+    }

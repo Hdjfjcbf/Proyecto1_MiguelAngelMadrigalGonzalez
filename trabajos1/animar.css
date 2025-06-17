@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.cuadrado-animado {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    position: relative;
+    animation-name: moverYcambiarColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes moverYcambiarColor {
+    0% {
+        background-color: dodgerblue;
+        transform: translateX(0);
+    }
+    25% {
+        background-color: orange;
+        transform: translateX(150px);
+    }
+    50% {
+        background-color: violet;
+        transform: translateX(150px);
+    }
+    75% {
+        background-color: limegreen;
+        transform: translateX(150px);
+    }
+    100% {
+        background-color: dodgerblue;
+        transform: translateX(0);
+    }
+}
+
+.forma-animada {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 20px 0;
+    animation-name: cuadradoACirculo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes cuadradoACirculo {
+    0% {
+        border-radius: 0%;
+        transform: translateX(0);
+        background-color: teal;
+    }
+    25% {
+        border-radius: 25%;
+        transform: translateX(50px);
+        background-color: lightseagreen;
+    }
+    50% {
+        border-radius: 50%;
+        transform: translateX(100px);
+        background-color: mediumturquoise;
+    }
+    75% {
+        border-radius: 25%;
+        transform: translateX(50px);
+        background-color: lightseagreen;
+    }
+    100% {
+        border-radius: 0%;
+        transform: translateX(0);
+        background-color: teal;
+    }
+}

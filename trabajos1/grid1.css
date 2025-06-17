@@ -1,0 +1,55 @@
+.contenedor{
+    display:grid;
+    background-color: grey;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.uno{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.dos{
+    background-color: rgb(0, 254, 238);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.tres{
+    background-color: rgb(211, 247, 4);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.cuatro{
+    background-color: rgb(255, 0, 0);
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.cinco{
+    background-color: rgb(65, 65, 147);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.seis{
+    background-color: rgb(0, 255, 115);
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.siete{
+    background-color: rgb(255, 31, 117);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
